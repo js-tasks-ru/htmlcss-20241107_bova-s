@@ -1,0 +1,7 @@
+.header {
+  color: var(--black);
+}
+
+.header_title {
+  font-size: 50px;
+}
