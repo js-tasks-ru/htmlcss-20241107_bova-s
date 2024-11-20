@@ -1,12 +1,14 @@
 /* Стилизация кнопки */
 .button {
   font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
   font-size: 16px;
-  text-emphasis: center;
-  width: 189px;
-  height: 48px;
+  line-height: 19px;
+  text-align: center;
+  padding: 15px 50px;
   opacity: 0.6;
-  border-radius: 5px;
+  border-radius: 8px;
   transition: opacity 200ms ease-in-out, background-color 200ms ease-in-out;
 }
 
@@ -21,20 +23,20 @@
   cursor: not-allowed;
 }
 
-.button__primary {
+.button_primary {
   background-color: var(--primary);
   color: var(--white);
-  border: solid var(--primary);
+  border-color: var(--primary);
 }
 
-.button__secondary {
+.button_secondary {
   background-color: var(--secondary);
   color: var(--white);
-  border: solid var(--secondary);
+  border-color: var(--secondary);
 }
 
-.button__alternate {
+.button_alternate {
   background-color: var(--white);
   color: var(--grey-4);
-  border: solid var(--grey-4);
+  border-color: var(--grey-4);
 }
