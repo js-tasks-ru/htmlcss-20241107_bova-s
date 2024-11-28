@@ -7,3 +7,29 @@
 .page__main {
   flex-grow: 1;
 }
+
+.page__inner {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    'header header'
+    'menu main'
+    'footer footer';
+}
+
+.page__inner_header {
+  grid-area: header;
+}
+
+.page__inner_menu {
+  grid-area: menu;
+}
+
+.page__inner_main {
+  grid-area: main;
+}
+
+.page__inner_footer {
+  grid-area: footer;
+}
