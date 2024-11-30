@@ -4,8 +4,15 @@
   flex-direction: column;
 }
 
+.page__main {
+}
+
 .page__main_flex {
   flex-grow: 1;
+}
+
+.page__main_grid {
+  grid-area: main;
 }
 
 .page_inner {
@@ -22,12 +29,8 @@
   grid-area: header;
 }
 
-.page__menu_gird {
+.page__menu {
   grid-area: menu;
-}
-
-.page__main {
-  grid-area: main;
 }
 
 .page__footer {
