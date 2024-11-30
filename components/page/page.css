@@ -4,7 +4,7 @@
   flex-direction: column;
 }
 
-.page__main {
+.page__main_flex {
   flex-grow: 1;
 }
 
@@ -22,7 +22,7 @@
   grid-area: header;
 }
 
-.page__menu {
+.page__menu_gird {
   grid-area: menu;
 }
 
