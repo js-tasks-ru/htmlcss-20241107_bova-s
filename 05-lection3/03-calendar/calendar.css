@@ -39,23 +39,20 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  font-style: normal;
+  line-height: 24px;
+  font-weight: 400;
 }
 
 .calendar__item_week {
   align-self: flex-start;
   font-family: 'Inter';
-  font-style: normal;
-  line-height: 24px;
-  font-weight: 400;
   font-size: 14px;
   color: #90a0b7;
 }
 
 .calendar__item_day {
   font-family: 'Source Sans Pro';
-  font-style: normal;
-  line-height: 24px;
-  font-weight: 400;
   font-size: 16px;
   color: #334d6e;
 }
