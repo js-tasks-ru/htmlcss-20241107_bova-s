@@ -30,6 +30,7 @@
 
 .histogram__link {
   display: inline-flex;
+  padding-top: 3px;
 }
 
 .histogram__value {
@@ -43,7 +44,6 @@
   flex-direction: row;
   height: 50px;
   column-gap: 1px;
-  justify-content: space-between;
   align-items: flex-end;
 }
 
