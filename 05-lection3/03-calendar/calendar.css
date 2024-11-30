@@ -4,7 +4,7 @@
   background: var(--white);
   border: 1px solid var(--grey-3);
   border-radius: 8px;
-  padding: 28px 30px 40px;
+  padding: 28px 26px 32px;
 }
 
 .calendar__title {
@@ -17,6 +17,7 @@
   line-height: 24px;
   color: #334d6e;
   text-align: center;
+  padding-bottom: 24px;
 }
 
 .calendar__wrapper {
@@ -41,6 +42,7 @@
 }
 
 .calendar__item_week {
+  align-self: flex-start;
   font-family: 'Inter';
   font-style: normal;
   line-height: 24px;
