@@ -8,7 +8,7 @@
   flex-grow: 1;
 }
 
-.page__inner {
+.page_inner {
   display: grid;
   grid-template-columns: auto 1fr;
   grid-template-rows: auto 1fr auto;
@@ -18,18 +18,18 @@
     'footer footer';
 }
 
-.page__inner_header {
+.page__header {
   grid-area: header;
 }
 
-.page__inner_menu {
+.page__menu {
   grid-area: menu;
 }
 
-.page__inner_main {
+.page__main {
   grid-area: main;
 }
 
-.page__inner_footer {
+.page__footer {
   grid-area: footer;
 }
