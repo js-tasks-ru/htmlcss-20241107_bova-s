@@ -8,6 +8,7 @@
   text-align: center;
   padding: 14px 50px;
   border-radius: 8px;
+  white-space: nowrap;
   transition: opacity 200ms ease-in-out, background-color 200ms ease-in-out;
 }
 
