@@ -24,13 +24,6 @@
   transition: opacity 200ms ease-in-out, background-color 200ms ease-in-out;
 }
 
-.button_primary:disabled {
-  background: var(--primary);
-  border-color: var(--primary);
-  pointer-events: none;
-  opacity: 0.5;
-}
-
 .button_secondary {
   background-color: var(--secondary);
   color: var(--white);
@@ -42,13 +35,6 @@
   border-color: #5028c6;
   cursor: pointer;
   transition: opacity 200ms ease-in-out, background-color 200ms ease-in-out;
-}
-
-.button_secondary:disabled {
-  background-color: var(--secondary);
-  border-color: var(--secondary);
-  pointer-events: none;
-  opacity: 0.5;
 }
 
 .button_alternate {
@@ -63,7 +49,7 @@
   transition: opacity 200ms ease-in-out, background-color 200ms ease-in-out;
 }
 
-.button_alternate:disabled {
+.button:disabled {
   pointer-events: none;
-  opacity: 0.3;
+  opacity: 0.5;
 }
