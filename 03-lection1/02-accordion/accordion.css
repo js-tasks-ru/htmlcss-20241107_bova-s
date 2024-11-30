@@ -17,6 +17,10 @@
   margin-top: 8px;
 }
 
+.accordion__item:first-child {
+  margin-top: 0;
+}
+
 .accordion__summary {
   color: var(--black);
   list-style: none;
