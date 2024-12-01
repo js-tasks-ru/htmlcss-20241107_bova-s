@@ -1,0 +1,67 @@
+.toggle {
+  display: inline-block;
+}
+
+.toggle__input {
+  width: 0;
+  height: 0;
+}
+
+.toggle__state {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+}
+
+.toggle__control {
+  position: relative;
+  box-sizing: border-box;
+  width: 52px;
+  height: 28px;
+  background: #ffffff;
+  border: 1px solid var(--grey-2);
+  border-radius: 16px;
+}
+
+.toggle__circle {
+  width: 24px;
+  height: 24px;
+  border-radius: 16px;
+}
+
+.toggle__circle_on {
+  display: none;
+  position: absolute;
+  left: 26px;
+  top: calc(50% - 24px / 2);
+  background: #ffffff;
+}
+
+.toggle__circle_off {
+  position: absolute;
+  left: 2px;
+  top: calc(50% - 24px / 2);
+  background: var(--grey-2);
+  border: 1px solid var(--grey-2);
+}
+.toggle__label {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--grey-4);
+}
+
+.toggle__input:checked ~ .toggle__state .toggle__control {
+  background-color: var(--blue);
+}
+
+.toggle__input:checked ~ .toggle__state .toggle__circle_on {
+  display: block;
+}
+
+.toggle__input:checked ~ .toggle__state .toggle__circle_off {
+  display: none;
+}
