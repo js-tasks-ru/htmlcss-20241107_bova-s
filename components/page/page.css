@@ -5,5 +5,34 @@
 }
 
 .page__main {
+}
+
+.page__main_flex {
   flex-grow: 1;
+}
+
+.page__main_grid {
+  grid-area: main;
+}
+
+.page_inner {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+    'header header'
+    'menu main'
+    'footer footer';
+}
+
+.page__header {
+  grid-area: header;
+}
+
+.page__menu {
+  grid-area: menu;
+}
+
+.page__footer {
+  grid-area: footer;
 }
