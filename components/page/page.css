@@ -7,3 +7,8 @@
 .page__main {
   flex-grow: 1;
 }
+
+.page__radio-container {
+  display: flex;
+  flex-direction: column;
+}
