@@ -6,6 +6,8 @@
 .checkbox__input {
   width: 0;
   height: 0;
+  position: absolute;
+  left: -100vw;
 }
 
 .checkbox__state {
