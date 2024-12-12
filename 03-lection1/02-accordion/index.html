@@ -1,36 +1,37 @@
 <!DOCTYPE html>
 <!-- Страница с аккордеоном -->
 <html lang="ru">
-    <head>
-        <link rel="stylesheet" href="../../assets/css/main.css">
-        <link rel="stylesheet" href="./accordion.css">
-    </head>
-    <body>
-        <div class="accordion">
-            <details class="accordion__item">
-                <summary class="accordion__summary">
-                    Accordion item 1
-                </summary>
-                <div class="accordion__content">
-                    <p class="accordion__text">
-                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-                        Velit officia consequat duis enim velit mollit.
-                        Exercitation veniam consequat sunt nostrud amet.
-                    </p>
-                </div>
-            </details>
-            <details class="accordion__item">
-                <summary class="accordion__summary">
-                    Accordion item 2
-                </summary>
-                <div class="accordion__content">
-                    <p class="accordion__text">
-                        Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.
-                        Velit officia consequat duis enim velit mollit.
-                        Exercitation veniam consequat sunt nostrud amet.
-                    </p>
-                </div>
-            </details>
-        </div>
-    </body>
+  <head>
+    <link rel="stylesheet" href="../../assets/css/main.css" />
+    <link rel="stylesheet" href="./accordion.css" />
+  </head>
+  <body>
+    <div class="accordion">
+      <details class="accordion__item" name="accord" open>
+        <summary class="accordion__summary">Accordion item 1</summary>
+        <p class="accordion__content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet magnam
+          quaerat eveniet temporibus. Eaque, eum nemo distinctio, est natus
+          commodi eveniet non quis sed vitae, hic neque! Nobis, fuga nulla?
+        </p>
+      </details>
+      <details class="accordion__item" name="accord">
+        <summary class="accordion__summary">Accordion item 2</summary>
+        <p class="accordion__content">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi aut
+          est modi autem, nesciunt quam nisi adipisci unde commodi culpa eaque
+          inventore, ipsa eos. Esse voluptates sapiente officiis cumque? Eaque!
+        </p>
+      </details>
+      <details class="accordion__item" name="accord">
+        <summary class="accordion__summary">Accordion item 3</summary>
+        <p class="accordion__content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam,
+          quia facere. Unde numquam fugiat sint quaerat eligendi cupiditate
+          deleniti dolorum optio praesentium quidem, nihil voluptatibus esse
+          doloremque culpa rerum a.
+        </p>
+      </details>
+    </div>
+  </body>
 </html>
